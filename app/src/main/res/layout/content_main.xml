@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mobile.appmobiprice.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/arroz"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Arroz"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/feijao"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:checked="false"
+            android:lineSpacingExtra="30sp"
+            android:text="Feijão"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/macarrao"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Macarrão"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/carne"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Carne"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/frango"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Frango"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/suco"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Suco"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/nescau"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Nescau"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/farinha"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Farinha"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/biscoito"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Biscoito"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/detergente"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Detergente"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/sabão"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Sabão"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/creme_dental"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="3"
+            android:lineSpacingExtra="30sp"
+            android:text="Creme Dental"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>
